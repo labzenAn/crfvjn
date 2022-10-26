@@ -16,6 +16,7 @@ SCAM IMPACT BOT BETA v1.4
 
 TOKEN = os.environ['TOKEN']
 APP_URL = os.environ['APP_URL']
+APP_URL=APP_URL+TOKEN
 DATABASE_URL =os.environ['DATABASE_URL']
 
 bot = telebot.TeleBot(TOKEN)
